@@ -40,6 +40,12 @@ sudo ln -s /etc/sv/elogind /var/service/
 sudo ln -s /etc/sv/sddm /var/service/
 ```
 
+optional (font)
+
+```bash
+sudo xbps-install -S noto-fonts-ttf noto-fonts-cjk
+```
+
 ### multimedia (pipewire)
 
 ```bash
